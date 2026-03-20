@@ -26,7 +26,7 @@ import path from 'path';
 
 export default defineConfig({
   // This tells Vite your site is at /video-compress/ instead of the root
-  base: '/video-compress/', 
+  base: '/', 
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
